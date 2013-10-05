@@ -1,0 +1,1 @@
+A simple canvas drawing library resembling 8-bit graphics.

@@ -1,0 +1,35 @@
+{
+  "name": "drawbit",
+  "version": "1.0.0",
+  "author": "Juan David Andrade <juandavidandrade@gmail.com>",
+  "description": "A simple canvas drawing library resembling 8-bit graphics",
+  "homepage": "http://github.com/jandrade/rmoop",
+  "keywords": [
+    "canvas",
+    "8-bit",
+    "drawing"
+  ],
+  "contributors": [
+    {
+      "name": "Juan Andrade",
+      "email": "juandavidandrade@gmail.com"
+    }
+  ],
+  "bugs": "https://github.com/jandrade/drawbit/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandrade/drawbit.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "0.x.x",
+    "grunt-contrib-uglify": "0.x.x",
+    "grunt-contrib-jasmine": "0.x.x",
+    "grunt-contrib-clean": "0.x.x",
+    "grunt-contrib-copy": "0.x.x",
+    "grunt-contrib-jshint": "0.x.x"
+  },
+  "bundledDependencies": [],
+  "license": "MIT"
+}
