@@ -1,11 +1,4 @@
 /*! drawbit v1.0.0 2013-10-05 */
-/**
- * @fileOverview Loads and converts an alphabet from an image to a matrix
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 0.5
- */
-
 /*globals console:false */
 
 (function (db) {
@@ -181,13 +174,7 @@
 		return letters;
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the configuration Object (JSON or Object Literal)
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 1.0
- */
-
+}(window.db = window.db || {}));
 /*globals console:false */
 
 (function (db) {
@@ -228,13 +215,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Make transitions between Tiles
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 0.5
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 	
@@ -355,13 +336,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Creates a Fade effect for a selected Tile
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 0.5
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 
@@ -448,13 +423,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Creates a Flip effect for a selected Tile
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 0.5
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 
@@ -627,13 +596,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the functionality to implement a Canvas Grid (8-bits)
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 1.0 
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 	
@@ -727,13 +690,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the App
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 1.0
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 	
@@ -768,13 +725,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the functionality to implement a Tile inside the Grid
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 1.0
- */
-
+}(window.db = window.db || {}));
 /*globals TouchEvent:false */
 
 (function (db) {
@@ -870,13 +821,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the functionality to implement a Tile inside the Grid
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 1.0
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 	
@@ -1037,13 +982,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the functionality to implement a Tile inside the Grid
- * @author Juan Andrade <juandavidandrade@gmail.com>
- * @version 1.0
- * @since 0.2
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 	
@@ -1137,11 +1076,7 @@
 		};
 	};
 
-}(window.db = window.db || {}));;/**
- * @fileOverview Manages the toolbars for DrawBit
- * @author Juan Andrade <juandavidandrade@gmail.com>
- */
-
+}(window.db = window.db || {}));
 (function (db) {
 	'use strict';
 	
@@ -1192,7 +1127,8 @@
 		};
 	}());
 
-}(window.db = window.db || {}));;function round(num) {
+}(window.db = window.db || {}));
+function round(num) {
 	return (0.5 + num) << 0;
 }
 

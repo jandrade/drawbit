@@ -36,7 +36,29 @@
 		function parseConfig() {
 			data = value;
 
-			console.log("data: ", data);
+			console.log("data: ", data.grid.layers);
+
+			var grid = new db.Grid('.drawbit'),
+				alphabit,
+				app = new db.gui.App(),
+				i = 0,
+				j = 0,
+				tiles,
+				numTiles = 0,
+				numLayers = data.grid.layers.length;
+
+			for ( ; i < numLayers; i++) {
+				grid.addLayer();
+				app.layers.add('layer_' + i);
+				tiles = data.grid.layers[i].tiles;
+				numTiles = tiles.length;
+
+				for ( j = 0; j < numTiles; j++) {
+					grid.getLayer(db.Tools.layer).draw(tiles[j].x, tiles[j].y);
+				}
+				
+			};
+			
 		}
 
 		//	public methods and properties

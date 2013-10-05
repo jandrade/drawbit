@@ -26,6 +26,16 @@
 		
 	</div>	<!-- .grid -->
 
+	<div class="db-tools">
+		<h2>Tools</h2>
+		<ul class="db-colors">
+			<li><a href="#255,0,0" title="Blue">Red</a></li>
+			<li><a href="#0,255,0" title="Blue">Green</a></li>
+			<li><a href="#0,0,255" title="Blue">Blue</a></li>
+		</ul>
+		<a class="erase-button" href="#255,255,255" title="Erase">Erase</a>
+	</div>
+
 	<div class="db-layers">
 		<h2>Layers</h2>
 		<p>Click to switch layer</p>
@@ -44,7 +54,9 @@
 		</ul>
 	</div>
 
+	<input type="text" value="" id="message" placeholder="Write your message here">
 	
+	<!--
 	<script type="text/javascript" src="../src/effects/flip.js"></script>
 	<script type="text/javascript" src="../src/effects/fade.js"></script>
 
@@ -56,17 +68,13 @@
 	<script type="text/javascript" src="../src/layer.js"></script>
 	<script type="text/javascript" src="../src/grid.js"></script>
 	
-	<script type="text/javascript" src="../src/config.js"></script>
-	
 	<script type="text/javascript" src="../src/gui/layers.js"></script>
 	<script type="text/javascript" src="../src/gui/app.js"></script>
-
-	<script type="text/javascript" src="js/config_data.js"></script>
+	-->
 	
-
-	<script type="text/javascript">
-		var configTest = new db.Config(configData);
-	</script>
+	<script type="text/javascript" src="../dist/drawbit.js"></script>
+	
+	<script type="text/javascript" src="js/basic.js"></script>
 	
 </body>
 </html>

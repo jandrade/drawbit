@@ -16,8 +16,7 @@ module.exports = function(grunt) {
 		concat: {
 			options: {
 				banner: '/*! <%= pkg.name %> v<%= pkg.version %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
-				// define a string to put between each file in the concatenated output
-				separator: ';'
+				stripBanners: true
 			},
 			dist: {
 				src: 'src/**/*.js',
